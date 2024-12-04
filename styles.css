@@ -1,0 +1,110 @@
+body {
+    display: grid;
+    grid-template-areas: 1fr 5fr 1fr/2fr 5fr;
+}
+
+aside {
+    grid-row: 1/4;
+    grid-column: 1/2;
+    background-image: url("los-angeles-1584089_640.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+aside h2 {
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+header {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    color: #000000;
+    padding: 40px;
+    background-color: #997f19;
+    width: 700px;
+}
+
+header a {
+    display: inline;
+    background-color: #d2ae74;
+    padding: 15px;
+    height: 15px;
+    width: auto;
+    color: #000000;
+    border-radius: 74px 20px 15px 20px;
+
+}
+img {
+    display: inline-block;
+    width: 125px; 
+    height: 175px;
+    
+}
+
+
+a:hover {
+    background-color: #b1e7cc;
+}
+
+main {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 775px;
+    height: 375px;
+    display: inline-block;
+}
+h1 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 100px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(89, 131, 252, 1);
+    background-image: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%);
+}
+
+h2 {
+    color: #000000;
+    font-family: "Roboto", serif;
+    font-weight: 400px;
+    font-style: 60px;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+span {
+    font-size: 60px;
+    color: #000000; 
+    font-style: italic;
+}
+
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400px;
+    font-style: normal;
+    text-align: justify;
+    text-wrap: justify;
+}
+
+footer {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    text-align: center;
+    background: #cebf6c;
+    margin-top: 500px;
+    height: 60px;
+}
